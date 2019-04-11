@@ -1,4 +1,0 @@
-prog: objet.o
-	gcc objet.o -o prog -lSDL -lSDL_image -lSDL_ttf -lSDL_mixer -g
-objet.o:objet.c
-	gcc -c objet.c -lSDL -lSDL_image -lSDL_ttf -lSDL_mixer -gbackground
