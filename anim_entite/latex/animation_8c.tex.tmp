@@ -1,0 +1,36 @@
+\hypertarget{animation_8c}{}\section{animation.\+c File Reference}
+\label{animation_8c}\index{animation.\+c@{animation.\+c}}
+
+
+animation d une entite.  
+
+
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+image.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+mixer.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}animation.\+h\char`\"{}}\newline
+Include dependency graph for animation.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{animation_8c_a20d14c3157f4c2fa3eca2f5bd205233b}\label{animation_8c_a20d14c3157f4c2fa3eca2f5bd205233b}} 
+void {\bfseries initialiser\+\_\+entite} (\hyperlink{structob}{entite} $\ast$f1, \hyperlink{structob}{entite} $\ast$f2, \hyperlink{structob}{entite} $\ast$f3, \hyperlink{structob}{entite} $\ast$f4)
+\item 
+\mbox{\Hypertarget{animation_8c_ac231d66b5c5f9abb85e4686edbc00685}\label{animation_8c_ac231d66b5c5f9abb85e4686edbc00685}} 
+void {\bfseries affichage\+\_\+entite} (S\+D\+L\+\_\+\+Surface $\ast$screen, \hyperlink{structob}{entite} $\ast$f1, \hyperlink{structob}{entite} $\ast$f2, \hyperlink{structob}{entite} $\ast$f3, \hyperlink{structob}{entite} $\ast$f4)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+animation d une entite. 
+
+\begin{DoxyAuthor}{Author}
+Reckless 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+May 09, 2019 
+\end{DoxyDate}

@@ -1,8 +1,20 @@
+/**
+* @file animation.c
+* @brief animation d une entite.
+* @author Reckless
+* @version 1
+* @date May 09, 2019
+*
+*/
 #include <SDL/SDL.h>
 #include <SDL/SDL_image.h>
 #include <SDL/SDL_mixer.h>
 #include "animation.h"
-
+/**
+* @brief initialiser entite f .
+* @param f entites.
+* @return Nothing
+*/
 void initialiser_entite(entite *f1,entite *f2,entite *f3, entite *f4)
 	{
 
@@ -27,7 +39,12 @@ void initialiser_entite(entite *f1,entite *f2,entite *f3, entite *f4)
 	f4->pos_image.y=400 ; 
 
 	}
-
+/**
+* @brief afficher entite f .
+* @param f entites.
+* @param ecran.
+* @return Nothing
+*/
          void affichage_entite(SDL_Surface *screen,entite *f1,entite *f2,entite *f3, entite *f4)
 	{
 	int continuer=1 ;
