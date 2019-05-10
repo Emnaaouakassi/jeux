@@ -1,11 +1,3 @@
-/**
-* @file pmap.c
-* @brief minimap.
-* @author Reckless
-* @version 1
-* @date May 09, 2019
-*
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <SDL/SDL.h>
@@ -13,11 +5,7 @@
 #include <SDL/SDL_mixer.h>
 #include <SDL/SDL_ttf.h>
 #include"pmap.h"
-/**
-* @brief To initialize minimap .
-* @param pmap
-* @return Nothing
-*/
+
 void initialiser_pmap(pmap *pmap){
 
 	pmap->afficher_pmap=NULL;
@@ -36,13 +24,7 @@ void initialiser_pmap(pmap *pmap){
 
 
 }
-/**
-* @brief afficher minimap .
-* @param pmap minimap
-* @param ecran screen
-* @param mouvement mouvement du personnage
-* @return Nothing
-*/
+
 void afficher_pmap(pmap *pmap,SDL_Surface *ecran,int mouvment){
 
 

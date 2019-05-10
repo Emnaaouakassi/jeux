@@ -1,11 +1,4 @@
-/**
-* @file pmap.h
-* @brief minimap.
-* @author Reckless
-* @version 1
-* @date May 09, 2019
-*
-*/
+
 #ifndef PMAP_H_INCLUDED
 #define PMAP_H_INCLUDED
 #include <stdio.h>
@@ -14,16 +7,13 @@
 #include <SDL/SDL_image.h>
 #include <SDL/SDL_mixer.h>
 #include <SDL/SDL_ttf.h>
-/**
-* @struct pmap
-* @brief struct minimap
-*/
+
 typedef struct pmap{
-	int nbmoved; /*!< integer. */
-	SDL_Surface *afficher_pmap; /*!< Surface. */
-	SDL_Rect pos_pmap; /*!< Rectangle*/
-	SDL_Surface *afficher_pperso; /*!< Surface. */
-	SDL_Rect pos_pperso; /*!< Rectangle*/
+	int nbmoved;
+	SDL_Surface *afficher_pmap;
+	SDL_Rect pos_pmap;
+	SDL_Surface *afficher_pperso;
+	SDL_Rect pos_pperso;
 }pmap;
 
 	void initialiser_pmap(pmap *pmap);
